@@ -22,7 +22,7 @@ const makeGrid = (gridCount) => {
     }
 }
 
-resetButton.addEventListener('click', () {
+resetButton.addEventListener('click', () => {
     const input = Number.prompt('Type dimensions for the new grid.')
     makeGrid(input)
 })
