@@ -13,5 +13,6 @@ const makeGrid = (gridCount) => {
             box.classList.add('box')
             row.appendChild(box)
         }
+        container.appendChild(row)
     }
 }
