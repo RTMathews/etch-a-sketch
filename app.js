@@ -6,6 +6,9 @@ const makeGrid = (gridCount) => {
         const row = document.createElement('div')
         row.classList.add('row')
 
-        
+        for (let j = 0; j < gridCount; j++)
+        {
+            
+        }
     }
 }
