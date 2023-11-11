@@ -1,5 +1,6 @@
 const gridCount = 16;
 const container = document.querySelector('.container')
+const resetButton = document.querySelector('button')
 
 const makeGrid = (gridCount) => {
     for (let i = 0; i < gridCount; i++)
