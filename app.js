@@ -16,3 +16,5 @@ const makeGrid = (gridCount) => {
         container.appendChild(row)
     }
 }
+
+makeGrid(gridCount)
