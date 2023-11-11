@@ -1,3 +1,4 @@
+const gridCount = 16;
 const container = document.querySelector('.container')
 
 const makeGrid = (gridCount) => {
@@ -8,7 +9,7 @@ const makeGrid = (gridCount) => {
 
         for (let j = 0; j < gridCount; j++)
         {
-            
+            const 
         }
     }
 }
