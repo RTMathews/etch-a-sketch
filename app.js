@@ -11,6 +11,7 @@ const makeGrid = (gridCount) => {
         {
             const box = document.createElement('div')
             box.classList.add('box')
+            row.appendChild(box)
         }
     }
 }
