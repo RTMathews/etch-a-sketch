@@ -23,6 +23,7 @@ const makeGrid = (gridCount) => {
 }
 
 resetButton.addEventListener('click', () => {
+    container.innerHTML = ''
     let input = Number(prompt('Type dimensions for the new grid 100 or less.'))
 
     while (input > 100)
