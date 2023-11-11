@@ -22,5 +22,8 @@ const makeGrid = (gridCount) => {
     }
 }
 
-makeGrid(gridCount)
+resetButton.addEventListener('click', () {
+    
+})
 
+makeGrid(gridCount)
