@@ -9,7 +9,8 @@ const makeGrid = (gridCount) => {
 
         for (let j = 0; j < gridCount; j++)
         {
-            const 
+            const box = document.createElement('div')
+            box.classList.add('box')
         }
     }
 }
