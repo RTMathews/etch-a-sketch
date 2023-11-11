@@ -11,6 +11,10 @@ const makeGrid = (gridCount) => {
         {
             const box = document.createElement('div')
             box.classList.add('box')
+
+            box.addEventListener('mouseenter', () => {
+                
+            })
             row.appendChild(box)
         }
         container.appendChild(row)
@@ -18,3 +22,4 @@ const makeGrid = (gridCount) => {
 }
 
 makeGrid(gridCount)
+
