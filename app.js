@@ -13,7 +13,7 @@ const makeGrid = (gridCount) => {
             box.classList.add('box')
 
             box.addEventListener('mouseenter', () => {
-                
+                box.style.backgroundColor = 'black'
             })
             row.appendChild(box)
         }
