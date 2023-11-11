@@ -23,10 +23,10 @@ const makeGrid = (gridCount) => {
 }
 
 resetButton.addEventListener('click', () => {
-    let input = Number.prompt('Type dimensions for the new grid 100 or less.')
+    let input = Number(prompt('Type dimensions for the new grid 100 or less.'))
 
     while (input > 100)
-        input = Number.prompt('Type dimensions for the new grid 100 or less.')
+        input = Number(prompt('Type dimensions for the new grid 100 or less.'))
         makeGrid(input)
 })
 
